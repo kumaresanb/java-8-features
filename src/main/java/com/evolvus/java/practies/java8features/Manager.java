@@ -24,8 +24,8 @@ public class Manager {
 			
 		});
 		
-		MyConsumer myConsumer=new MyConsumer();
-		myList.forEach(myConsumer);
+		/*MyConsumer myConsumer=new MyConsumer();
+		myList.forEach(myConsumer);*/
 				
 	
 	}
