@@ -7,7 +7,7 @@ import java.util.function.Consumer;
 
 public class Manager {
 	public static void main(String[] args) {
-		List<Integer> myList=new ArrayList<Integer>();
+		List<Integer> myList=new ArrayList<>();
 		for (int i = 0; i < 10; i++) myList.add(i);
 		
 		Iterator<Integer> iterator=myList.iterator();
@@ -23,6 +23,8 @@ public class Manager {
 			}
 			
 		});
+		
+		myList.forEach(arg->System.out.println("Lamda Expression:"+arg));
 		
 		/*MyConsumer myConsumer=new MyConsumer();
 		myList.forEach(myConsumer);*/
